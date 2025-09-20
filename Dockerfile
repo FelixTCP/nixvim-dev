@@ -6,7 +6,7 @@ ENV NIXPKGS_DISABLE_DOCS=1
 
 # Clone your config
 WORKDIR /root/.config/home-manager
-ARG HOME_MANAGER_REPO=https://github.com/FelixTCP/nixos-mini
+ARG REPO_URL=https://github.com/FelixTCP/nixvim-dev
 RUN git clone --depth=1 --branch main $REPO_URL .
 
 # Build and activate Home Manager
