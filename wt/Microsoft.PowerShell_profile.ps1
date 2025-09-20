@@ -7,5 +7,5 @@ function nixvim-dev {
     #    -v "$HOME\.ssh\id_rsa:/root/.ssh/id_rsa" `
     #    -v "$HOME\.ssh\id_rsa.pub:/root/.ssh/id_rsa.pub" `
     #    -v "%WORKSPACE%:/workspace" `
-    #    nixvim-dev @Args
+    #    felixtcp/nixvim-dev:latest @Args
 }
